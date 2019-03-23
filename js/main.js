@@ -43,9 +43,6 @@
 
 
 	var scrollNavBar = function() {
-		$('body').addClass('scrolled');
-		$('.js-fh5co-nav-toggle').removeClass('fh5co-nav-white');
-		/*
 		if ( $(window).scrollTop() > 50)  {
 			$('body').addClass('scrolled');
 			$('.js-fh5co-nav-toggle').removeClass('fh5co-nav-white');
@@ -53,12 +50,9 @@
 			$('body').removeClass('scrolled');
 			$('.js-fh5co-nav-toggle').addClass('fh5co-nav-white');
 		}
-		*/
+
 
 		$(window).scroll(function(){
-			$('body').addClass('scrolled');
-			$('.js-fh5co-nav-toggle').removeClass('fh5co-nav-white');
-			/*
 			if ( $(window).scrollTop() > 50)  {
 				$('body').addClass('scrolled');
 				$('.js-fh5co-nav-toggle').removeClass('fh5co-nav-white');
@@ -66,7 +60,7 @@
 				$('body').removeClass('scrolled');
 				$('.js-fh5co-nav-toggle').addClass('fh5co-nav-white');
 			}
-			*/
+
 		});
 	};
 
